@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body-text{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-start;
+    justify-content: space-around;
+    line-height:120px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    word-spacing: 20%;
+}
+.nav-links li {
+    list-style: none;
+    
+}
+.heading{
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links a{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px 15px;
+}
+.nav-links li a:hover:not(.active){
+    background-color: mediumseagreen
+}
+.nav-links li a.active{
+    background-color: lightseagreen;
+}
+.sub1{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+.sub2{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-start;
+    justify-content: space-around;
+    line-height: 100px;
+}
+
+.body{
+    background-color: rgb(41, 172, 172);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(30, 32, 34);
+    margin-top: 100px;
+    line-height: 40px;
+    min-height: 40px;
+}
+.button{
+    
+    background-color:teal;
+    color: rgb(233, 237, 240);
+    display:  -moz-box;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    object-position: center;
+    text-transform: uppercase;
+    font-size: 0.5cm;
+    letter-spacing: 0.1cm;
+    padding: 10px 30px;
+    line-height: 200px;
+    margin-left: 45%;
+}
+.button:hover{
+ background-color: mediumseagreen;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin:auto;
+    margin-top: 5%;
+    width: 50%;
+    padding: 16px;
+    background-color: teal;
+    box-shadow: seagreen
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type=tel] {
+
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+}
+#gender{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke  
+}
+.submit{
+    padding: 16px;
+    background-color: rgb(44, 99, 67);
+    color: white;
+    margin-left: 50%;
+    margin-top: 3%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.8;
+    object-position: center;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type=tel]:focus {
+    background-color: aliceblue;
+    outline: none;
+}
+.submit:hover{
+    opacity: 1;
+}
+.table{
+    margin:auto;
+    margin-top: 5%;
+    width: 50%;
+    padding: 16px;
+    background-color: teal;
+    box-shadow: seagreen
+}
+.lgbtn{
+    padding: 16px;
+    background-color: rgb(44, 99, 67);
+    color: white;
+    margin-left: 45%;
+    margin-top: 3%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.8;
+    object-position: center;
+}
+.csubmit{
+    padding: 16px;
+    background-color: rgb(44, 99, 67);
+    color: white;
+    margin-left: 100%;
+    margin-top: 12%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.8;
+    object-position: center;
+}
+.msg{
+    object-position: center;
+    width: max-content;
+}
